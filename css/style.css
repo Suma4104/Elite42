@@ -52,9 +52,9 @@ ul.parent li:hover ul {
 }
 .content .products li img {
   width: 100px;
-  height: 100px;
+  height: 120px;
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   left: 50px;
 }
 .content .products li .product-description {
