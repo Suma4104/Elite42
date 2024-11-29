@@ -56,6 +56,9 @@ ul.parent li:hover ul {
   position: absolute;
   bottom: 20px;
   left: 50px;
+  border: none;
+  background-color: gainsboro;
+  color: #fff;
 }
 .content .products li .product-description {
   padding: 10px;
