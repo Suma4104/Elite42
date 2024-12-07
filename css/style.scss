@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+ul.parent{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color: gray;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    ul{
+        text-align: center;
+        font-size: 18px;
+        font-style: bold;
+    }
+    li{
+        input{
+            width: 80%;
+            height: 20px;
+            margin: 2px;
+            border: 1px solid #ccc;
+            font-size: 12px;
+        }
+    }
+}
+
+.our-mission{
+    ul{
+        text-align: center;
+        font-size: 18px;
+        font-style: bold;
+    }
+        li{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color: gainsboro;
+
+            p{
+                text-align: start;
+                font-style: normal;
+                font-size: 10px;
+            }
+
+             button{
+                position: absolute;
+                top: 0;
+                width: 20%;
+                border: none;
+                background-color: gainsboro;
+                color: white;
+                height: 12px;
+                margin: 2px;
+                padding: 2px;
+             }
+        }
+} 
