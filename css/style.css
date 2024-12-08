@@ -7,56 +7,84 @@ ul {
   list-style: none;
 }
 
-ul.parent {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  background-color: gray;
-  padding: 5px;
+.content {
+  padding: 20px;
 }
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
+.content .container .section {
+  height: 110px;
 }
-.container ul {
-  text-align: center;
-  font-size: 18px;
+.content .container .section:hover {
+  background-color: #F5F9FC;
+}
+.content .container .our-title {
+  display: flex;
+}
+.content .container .our-title .text {
+  text-align: start;
   font-style: bold;
+  width: 60%;
 }
-.container li input {
-  width: 80%;
+.content .container .our-title .text h2 {
+  font-size: 30px;
+}
+.content .container .our-title input {
+  width: 20%;
   height: 20px;
   margin: 2px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(255, 166, 0, 0.897);
   font-size: 12px;
 }
-
-.our-mission ul {
-  text-align: center;
-  font-size: 18px;
-  font-style: bold;
-}
-.our-mission li {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  background-color: gainsboro;
-}
-.our-mission li p {
-  text-align: start;
-  font-style: normal;
-  font-size: 10px;
-}
-.our-mission li button {
+.content .container .our-title button {
   position: absolute;
-  top: 0;
-  width: 20%;
+  right: 81%;
+  font-size: 10px;
+  background-color: rgba(215, 145, 14, 0.723);
+  box-sizing: content-box;
+  height: 20px;
+  width: 70px;
+  top: 8%;
+  border: none;
+  color: white;
+}
+.content .container .our-mission {
+  display: flex;
+}
+.content .container .our-mission .text {
+  text-align: start;
+  font-style: bold;
+  width: 60%;
+}
+.content .container .our-mission .text h2 {
+  font-size: 30px;
+  color: orange;
+}
+.content .container .our-mission button {
+  position: relative;
+  width: 50px;
+  border: 1px solid rgba(255, 166, 0, 0.868);
+  background-color: white;
+  height: 14px;
+  box-sizing: content-box;
+  margin: 2px;
+  padding: 2px;
+}
+.content .container .our-story {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.content .container .our-story img {
+  width: 100px;
+  height: 120px;
+  position: relative;
   border: none;
   background-color: gainsboro;
   color: white;
-  height: 12px;
+  left: 50px;
+  bottom: 0px;
   margin: 2px;
   padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
