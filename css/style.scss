@@ -7,7 +7,8 @@ ul{
 }
 
 .content{
-    padding: 20px;
+    padding: 15px;
+    
   .container{
     .section{
         height: 110px;
@@ -78,19 +79,15 @@ ul{
 
     img{
         width: 100px;
-        height: 120px;
+        height: 80px;
         position: relative;
         border: none;
         background-color: gainsboro;
         color: white;
         left: 50px;
-        bottom: 0px;
         margin: 2px;
         padding: 2px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
+    }
     }
   }
  }
-}
